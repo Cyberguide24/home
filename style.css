@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh;
+    width: 100vw; */
+    background: rgb(82, 82, 82);
+}
+
+.container {
+    margin: 10rem 30em;
+    padding: 2em;
+    height: 100;
+    background: rgb(109, 109, 109);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.2);
+    border-radius: 1.5em;
+}
+
+.heading {
+    color: rgb(0, 204, 255);
+}
+
+.intro-text {
+    color: rgb(238, 255, 0);
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 8em;
+    }
+}
